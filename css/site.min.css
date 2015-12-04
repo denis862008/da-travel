@@ -517,6 +517,7 @@ input[type="text"]:focus {
 }
 .events {
   *zoom: 1;
+  margin-top: 50px;
 }
 .events:before,
 .events:after {
