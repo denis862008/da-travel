@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic&subset=latin,cyrillic);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic&subset=latin,cyrillic);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700&subset=latin,cyrillic);
 html {
@@ -29,7 +30,7 @@ body {
   bottom: 0;
 }
 #page {
-  padding: 0 0 148px;
+  padding: 0 0 200px;
   margin: auto;
   position: relative;
 }
@@ -78,7 +79,7 @@ header#header {
   clear: both;
 }
 footer#footer {
-  height: 0px;
+  height: 180px;
   border-top: 4px solid #b20202;
 }
 h1,
@@ -193,11 +194,23 @@ hr {
   text-decoration: none;
   background: url("../images/content/icons.png") no-repeat;
 }
-.ico.fb {
+.ico.fb-lg {
   display: block;
   width: 35px;
   height: 74px;
   background: url("../images/content/fb.png") no-repeat;
+}
+.ico.fb {
+  background-position: 0 0;
+}
+.ico.vk {
+  background-position: -56px 0;
+}
+.ico.tw {
+  background-position: -112px 0;
+}
+.ico.igm {
+  background-position: -168px 0;
 }
 ul {
   margin: 0;
@@ -588,6 +601,77 @@ input[type="text"]:focus {
   border-style: solid;
   border-width: 14px;
   border-color: #373838 transparent transparent;
+}
+.copy,
+.dev {
+  position: absolute;
+  bottom: 40px;
+  font-size: 12px;
+  color: #999999;
+}
+.copy {
+  left: 26px;
+}
+.dev {
+  right: 26px;
+}
+.dev a {
+  color: #373838;
+  text-decoration: none;
+}
+.nav-main.nav-main_footer {
+  position: relative;
+  line-height: 0;
+  text-align: justify;
+  text-justify: newspaper;
+  *zoom: 1;
+  -ms-text-align-last: justify;
+  text-align-last: justify;
+  border-style: solid;
+  border-color: #3b3b3b;
+  font-size: 0;
+  padding: 34px 0 35px;
+  border-width: 0 0 1px;
+}
+.nav-main.nav-main_footer > a,
+.nav-main.nav-main_footer > span {
+  display: inline-block;
+  text-align: center;
+}
+.nav-main.nav-main_footer:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+.nav-main.nav-main_footer .nav-main__item {
+  position: relative;
+  display: inline-block;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #373838;
+}
+.nav-main.nav-main_footer .nav-main__item:hover,
+.nav-main.nav-main_footer .nav-main__item.active {
+  color: #b20202;
+}
+.social {
+  font-size: 0;
+  line-height: 0;
+}
+.social.social_footer {
+  margin: 28px 170px 0;
+  text-align: center;
+}
+.social.social_footer .ico {
+  width: 40px;
+  height: 40px;
+  margin-right: 26px;
 }
 .ymaps-2-1-29-islets_gotoymaps,
 .ymaps-2-1-29-copyright {
