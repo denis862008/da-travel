@@ -1,3 +1,5 @@
 Text document 1
 
 The document doc1 has been changed
+
+Изменение файла doc1 в ветке before_dev
