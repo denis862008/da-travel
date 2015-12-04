@@ -1,1 +1,3 @@
 Text document 1
+
+The document doc1 has been changed
